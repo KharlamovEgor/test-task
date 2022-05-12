@@ -93,7 +93,7 @@ body {
 }
 
 .header {
-	background: linear-gradient(var(--indigo), var(--seaweed));
+	background: linear-gradient(var(--indigo) 35%, var(--seaweed));
 	color: white;
 }
 

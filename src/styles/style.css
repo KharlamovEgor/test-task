@@ -154,3 +154,39 @@ body {
 .button:hover {
 	background-color: var(--cadmium-red);
 }
+
+.heading {
+	color: #333333;
+}
+
+.heading--center {
+	text-align: center;
+}
+
+.about-me {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.about-me a {
+	color: var(--ruby-red);
+	text-decoration: none;
+	transition: color 0.2s linear;
+}
+
+.about-me a:hover {
+	color: var(--cadmium-red);
+}
+
+.skills__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 50px;
+}
+
+.js-logo img {
+	display: block;
+	width: 100%;
+}
